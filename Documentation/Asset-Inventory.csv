@@ -1,0 +1,6 @@
+,,,,,
+Hostname,IP Address,Sistem Operasi,Role,Service,Keterangan
+Target-DB-Server,192.168.5.20 /24,Linux Ubuntu,Database Server,MySQL/PostgreSQL,Target Utama untuk simulasi Data Exfilration
+Attacker-VM,192.168.5.10/24,Linux Cisco Cyberops,Attacker,-,Digunakan untuk melakukan Privilege Escalation
+Monitoring-VM,192.168.5.30 /24,Linux Security Onion,SIEM / NIDS,Sguil/Kibana,Merekam Aktivitas
+Switch-01,192.168.5.0 /24,Cisco IOS,Network Switch,-,Switch Penghubung
