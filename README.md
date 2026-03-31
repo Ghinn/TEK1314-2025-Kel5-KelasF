@@ -1,6 +1,8 @@
 # Proyek PBL Keamanan Siber: Implementasi IDS & Hardening
-**Kelompok: 5** **Anggota:** 1. Ghina Rania - Lead Analyst 
 **Scenario: Internal Database Fortress, Data Exfiltration Simulasi akses ilegal menggunakan kredensial curian (Privilege Escalation) dan upaya mengunduh dump database secara diam-diam.**
+**Kelompok: 5** 
+**Anggota:** 
+1. Ghina Rania - Lead Analyst 
 2. Bintang Hamizan Elka - Security Engineer 
 3. Steven Imanuel - Analyst
 4. Ghazy Hasan - Analyst
