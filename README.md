@@ -27,7 +27,7 @@ Proyek ini bertujuan untuk mensimulasikan pengamanan jaringan pada server databa
 
 
 ## 🛠️ Infrastruktur Attacker [Cyberops Workstation VM]
-**Hostname:** kel5 (Disarankan mengikuti format kelompok).
+**Hostname:** analyst
 **OS:** Linux (Atau sistem yang menjalankan Nmap).
 **IP Address:** 192.168.5.10.
 **Tools Utama:** Nmap (untuk scanning) dan Ping (untuk host discovery).
