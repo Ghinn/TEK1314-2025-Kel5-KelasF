@@ -21,7 +21,21 @@ Proyek ini bertujuan untuk mensimulasikan pengamanan jaringan pada server databa
 * `LOGBOOK.md`: Catatan aktivitas mingguan anggota kelompok.
 
 ## 🛠️ Infrastruktur Target
-* [cite_start]**Hostname:** SRV-WEB-KEL05F [cite: 12]
-* **OS:** Security Onion (Monitoring)
-* [cite_start]**IP Address:** 192.168.5.20 (Contoh) [cite: 12]
-* [cite_start]**Monitoring Tool:** Wireshark (Plan B - Manual Analysis) [cite: 9]
+**Hostname:** kel5
+**OS:** Ubuntu Server 24 LTS (Monitoring)
+**IP Address:** 192.168.5.20 (Contoh)
+
+
+## 🛠️ Infrastruktur Attacker [Cyberops Workstation VM]
+**Hostname:** kel5 (Disarankan mengikuti format kelompok).
+**OS:** Linux (Atau sistem yang menjalankan Nmap).
+**IP Address:** 192.168.5.10.
+**Tools Utama:** Nmap (untuk scanning) dan Ping (untuk host discovery).
+
+## 🛠️ Infrastruktur Monitoring
+**Hostname:** SRV-WEB-KEL05F
+**OS:** Security Onion.
+**IP Address:** 192.168.5.30.
+**Hardening Status:** UFW Active (Hanya mengizinkan port 22/TCP).
+**Monitoring Method:** Wireshark (Plan B - Manual Analysis) untuk merekam trafik secara real-time.
+**Interface:** eth0
